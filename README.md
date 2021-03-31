@@ -1,7 +1,4 @@
-[![npm](https://img.shields.io/npm/v/d3-milestones.svg?maxAge=2592000)](https://www.npmjs.com/package/d3-milestones)
-[![npm](https://img.shields.io/npm/l/d3-milestones.svg?maxAge=2592000)](https://www.npmjs.com/package/d3-milestones)
-[![npm](https://img.shields.io/npm/dt/d3-milestones.svg?maxAge=2592000)](https://www.npmjs.com/package/d3-milestones)
-[![travis](https://api.travis-ci.org/walterra/d3-milestones.svg?branch=master)](https://travis-ci.org/walterra/d3-milestones)
+## FORK of https://github.com/walterra/d3-milestones for some customization, provided as-is, no support - refer to original repo for the latest
 
 # d3-milestones
 
@@ -9,7 +6,6 @@ A d3 based timeline visualization.
 
 ![The Viking Timeline](example/vikings.png)
 
-If you're using `d3-milestones` out in the wild I'd love to see what you came up with, just ping me on [twitter.com/walterra](https://www.twitter.com/walterra).
 
 ## Installing
 
