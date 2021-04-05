@@ -54,6 +54,7 @@ export default function milestones(selector) {
     timestamp: 'timestamp',
     text: 'text',
     url: 'url',
+    data: 'data',
   };
   function assignMapping(d) {
     mapping = Object.assign(mapping, d);
@@ -381,6 +382,13 @@ export default function milestones(selector) {
                 .classed('milestones-label', true)
                 .classed('milestones-text-label', true)
                 .text(t);
+            }
+
+            // add extra data atributes
+            if (v[mapping.data]) {
+              Object.entries(v[mapping.data]).forEach(([key, value]) =>
+                item.attr(`data-${key}`, value)
+              );
             }
 
             item.datum({
